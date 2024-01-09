@@ -1,0 +1,60 @@
+CREATE TABLE event_table(
+	event_name varchar(20)
+)
+
+INSERT INTO event_table(event_name) VALUES ('Event 1');
+INSERT INTO event_table(event_name) VALUES ('Event 2');
+INSERT INTO event_table(event_name) VALUES ('Event 3');
+INSERT INTO event_table(event_name) VALUES ('Event 4');
+INSERT INTO event_table(event_name) VALUES ('Event 5');
+INSERT INTO event_table(event_name) VALUES ('Event 6');
+
+CREATE TABLE flagshipevent_table(
+	event_name varchar(20)
+)
+
+INSERT INTO flagshipevent_table(event_name) VALUES ('Flagshipevent 1');
+INSERT INTO flagshipevent_table(event_name) VALUES ('Flagshipevent 2');
+INSERT INTO flagshipevent_table(event_name) VALUES ('Flagshipevent 3');
+INSERT INTO flagshipevent_table(event_name) VALUES ('Flagshipevent 4');
+INSERT INTO flagshipevent_table(event_name) VALUES ('Flagshipevent 5');
+
+CREATE TABLE workshop_table(
+	event_name varchar(20)
+)
+
+INSERT INTO workshop_table(event_name) VALUES ('Workshop 1');
+INSERT INTO workshop_table(event_name) VALUES ('Workshop 2');
+INSERT INTO workshop_table(event_name) VALUES ('Workshop 3');
+INSERT INTO workshop_table(event_name) VALUES ('Workshop 4');
+INSERT INTO workshop_table(event_name) VALUES ('Workshop 5');
+INSERT INTO workshop_table(event_name) VALUES ('Workshop 6');
+INSERT INTO workshop_table(event_name) VALUES ('Workshop 7');
+INSERT INTO workshop_table(event_name) VALUES ('Workshop 8');
+
+CREATE TABLE paperpresentation_table(
+	event_name varchar(20)
+)
+
+INSERT INTO paperpresentation_table(event_name) VALUES ('Paperpresentation 1');
+INSERT INTO paperpresentation_table(event_name) VALUES ('Paperpresentation 2');
+INSERT INTO paperpresentation_table(event_name) VALUES ('Paperpresentation 3');
+INSERT INTO paperpresentation_table(event_name) VALUES ('Paperpresentation 4');
+INSERT INTO paperpresentation_table(event_name) VALUES ('Paperpresentation 5');
+
+CREATE TABLE user_table(
+	f_name varchar(20),
+	l_name varchar(20),
+	email varchar(50),
+	gender varchar(1),
+	college varchar(100),
+	mobile_number bigserial
+)
+
+CREATE TABLE login_details(
+	user_mail varchar(50),
+	user_password varchar(10)
+)
+
+
+
